@@ -1,0 +1,44 @@
+body{
+  background-color: grey;
+}
+
+.dark{
+color: white;
+background-color:black;
+
+}
+a:link{
+  color:white;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover{
+color:white;
+text-decoration: underline;
+background-color: transparent;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
+  background-color: transparent;
+}
+.quizBox{
+  margin-top: 15em;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  padding: 2em;
+
+}
+@media screen and (max-width: 320px){
+   .quizBox{
+    margin-top: 6em;
+
+    }
+  }
+.buttonPadding{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
