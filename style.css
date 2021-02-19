@@ -32,13 +32,14 @@ a:visited{
   padding: 2em;
 
 }
+.buttonPadding{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 @media screen and (max-width: 320px){
    .quizBox{
     margin-top: 6em;
 
     }
   }
-.buttonPadding{
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
